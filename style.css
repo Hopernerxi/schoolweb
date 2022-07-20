@@ -1,0 +1,363 @@
+/*Error was here..wrongly written id*/
+#navigationBar li a:focus::before{
+    content: ''!important;
+    background-color: #fe370c;
+    width: 10px !important;
+    height: 30px !important;
+    border-radius: 15% !important;
+    position: relative !important;
+    left:2px !important;
+    top: 0px !important;
+    display: inline-block !important;
+}
+/*Error was here..wrongly written id...#navigationBar*/
+.menu > a,#navigationBar ul li a{
+    font-weight: bold !important;
+    padding: 14px !important;
+}
+.dropdown-menu{
+   min-width: 220px !important;
+   border-top: 2px solid #fff; 
+   background-color: #fe370c;
+  
+
+}
+
+.dropdown-menu a{
+    font-weight: normal !important;
+    color: white !important;
+    padding: 7px !important;
+}
+
+.dropdown-menu a:hover{
+    margin: 15px !important;
+    color: rgb(3, 2, 2) !important;
+    background-color: transparent !important;
+}
+
+.navbar-brand{
+    margin-top: -10px !important;
+    margin-bottom: -10px !important;
+}
+
+.lr a{
+    display:inline-block !important;
+}
+
+.lr-btn{
+    width: 120px;
+    border-radius: 40px !important;
+    padding-left: 8px !important;
+    margin-top: -12px;
+    margin-bottom: -12px !important;
+    color: #fff !important;
+    font-size: 15px !important;
+    background-color: #fe370c !important;
+}
+
+.lr-btn:hover{
+    color: #fff !important;
+    background-color: green !important;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: inline-block !important;
+    margin-top: 0px !important;
+}
+
+a:hover,
+a:focus{
+    color: #fe370c !important;
+    text-decoration: none !important;
+    outline: none !important;
+    cursor:pointer !important;
+
+}
+
+a{
+    transition:0.5s linear !important; 
+}
+
+html,
+body{
+    font-family: "lato", sans-serif;
+    font-size: 14px;
+}
+
+/*carousel section */
+.barnerSection ,
+.bannerImage{
+    height: 400px;
+}
+/*end of carousel section*/
+
+/*MARKERTING SECTION*/
+.marketingRow .fa{
+    width: 100px !important;
+    height:97px !important;
+    color: #fe370c;
+    border: 2px solid #fe370c !important;
+    padding: 20px !important;
+    border-radius: 40px !important;
+    transition: 0.2s linear !important;
+}
+
+.marketingRow .fa:hover{
+    border-radius: 48% !important;
+}
+
+/*Error was here, use small letter to call elements,,,i.e p not P*/
+.marketingSection p{
+    max-width: 47% !important;
+    text-align: center !important;
+    line-height: 30px !important;
+}
+
+.marketingRow{
+    max-width: 94% !important;
+}
+
+.marketingSection .border{
+    background-color: #fe370c !important;
+    height: 4px !important;
+    width:40px !important ;
+    margin: 10px 0px !important;
+}
+/*END OF MARKETING SECTION*/
+/*AchievementSpot Section*/
+.achievementSpotRow .fa{
+    max-width: 86px !important;
+}
+.achievementSpot{
+    padding: 40px 0px 120px 0px !important;
+}
+
+.achievementSpotRow{
+    padding-left: 90px !important;
+}
+.achievementSpot .border{
+    background-color: #fe730c !important;
+    height: 4px !important;
+    width: 40px !important;
+}
+
+.achievementSpot img{
+    box-shadow: 18px 10px  #dfe3e8 !important;
+}
+.achievementSpot span{
+    color: #fe730c !important;
+    text-align: left !important;
+}
+.achievementSpot p,h5{
+    text-align: left !important;
+    line-height: 40px !important;
+}
+
+/*End of AchievementSpot Section*/
+
+/*footer section*/
+.footer-main{
+    padding: 70px 0px !important;
+}
+
+.footer-top-box p{
+    padding: 15px !important;
+    color: #fff !important;
+}
+
+.footer-top-box ul li{
+    float: left !important;
+    margin-right: 5px !important;
+}
+
+.footer-top-box ul li a{
+    color: #fff !important;
+    display: inline-block !important;
+    width: 36px !important;
+    height: 36px !important;
+    border: 2px solid #fff !important;
+    text-align: center !important;
+    line-height: 32px !important;
+}
+
+.footer-top-box ul li a:hover{
+   color: #fe730c !important;
+   border-color: #fe730c !important;
+   transition: 0.2 s linear !important;
+}
+
+.footer-widget, .footer-link, .footer-link-contact{
+    margin-top: 15px !important;
+}
+
+.footer-widget h4{
+    color: #fff !important;
+    font-size: 16px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 2px !important;
+    margin-bottom: 20px !important;
+    position: relative !important;
+    font-weight: 700 !important;
+}
+
+.footer-widget p{
+    color: #fff !important;
+    font-weight: 400px !important;
+    font-size: 14px !important;
+    padding-bottom: 5px !important;
+}
+
+.footer-link h4{
+    color: #fff !important;
+    font-size: 16px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 2px !important;
+    margin-bottom: 5px !important;
+    position: relative !important;
+    font-weight: 700px !important;
+}
+
+.footer-link ul li a{
+    color: #fff !important;
+    text-align: left !important;
+    display: inline-block !important;
+    line-height: 32px !important;
+    position: relative;
+    padding-left: 15px !important;
+}
+
+.footer-link ul li a:hover{
+    color: #fe730c !important;
+    padding-left: 20px !important;
+}
+
+.footer-link-contact h4{
+    color: #fff !important;
+    font-size: 16px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 2px !important;
+    margin-bottom: 5px !important;
+    position: relative;
+    font-weight: 700 !important;
+}
+
+.footer-link-contact ul li{
+    margin-bottom: 12px !important;
+}
+
+.footer-link-contact ul li i{
+    position: relative !important;
+    left: 0 !important;
+    top: 5px !important;
+    padding-right: 6px !important;
+}
+
+.footer-link-contact ul li p{
+    color: #fff !important;
+    padding-left: 25px !important;
+    position: relative !important;
+}
+
+.footer-link-contact ul li p:hover{
+    color: #fe730c !important;
+    padding-left: 15px !important;
+    transition: linear !important;
+}
+
+.bgimg{
+    background-attachment: center top no-repeat fixed;
+    color: #fff !important;
+    background-size: auto !important;
+    background-size: cover !important;
+    padding: 30px 0px 30px 0px !important;
+    position: relative !important;
+}
+/* end of footer section*/
+
+/*widgets section*/
+.icons-bar{
+    position: fixed !important;
+    display: flex !important;
+    flex-direction: column !important;
+    top: 50% !important;
+    right: 0% !important;
+    z-index: 100 !important;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.icons-social{
+    position: fixed !important;
+    display: flex !important;
+    flex-direction: column !important;
+    top: 50% !important;
+    left: 0% !important;
+    z-index: 100 !important;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%) /*here*/
+}
+
+.icons-bar a{
+    display: block;
+    text-align: center !important;
+    padding: 9px  9px !important;
+    transition: all 0.3s ease !important;
+    color: #fff !important;
+    font-size: 14px !important;
+    margin-bottom: 6px !important;
+}
+
+.icons-social a{
+    display: block !important;
+    text-align: center !important;
+    padding: 18px 16px !important;
+    transition: 0.3s !important;
+    color: #fff !important;
+    font-size: 14px !important;
+    margin-bottom: 6px !important;
+}
+
+.icons-bar a{
+    background-color: #fe730c !important;
+}
+
+.icons-bar a:hover{
+    background-color: green !important;
+    color: white !important;
+}
+/*end of widgets section*/
+
+/*Card rotating effect*/
+.cardSpace{
+    margin-top: 50px !important;
+    margin-bottom: 100px !important;
+}
+
+.rotate_card_container{
+    perspective: 200rem !important;
+    position: relative;
+    height: 418px !important;
+}
+.rotate_card_container:hover .card-front{
+    transform: rotateY(180deg) !important;
+}
+.rotate_card_container:hover .card-back{
+    transform: rotateY(0deg) !important;
+}
+.card{
+    transition: all 0.9s ease !important;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+.card-back{
+    transform: rotateY(180deg) !important;
+}
+
+
+
+
+
